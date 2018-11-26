@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     return nil
   else
     min_amt = name_hash.first[1]
-    binding.pry
+    # binding.pry
     name_hash.each do |key,value|
 
     if v < smallest_value
