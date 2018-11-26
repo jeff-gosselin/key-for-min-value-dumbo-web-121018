@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     return nil
   else
-    min_amt = name_hash[0][1]
+    min_amt = name_hash.first[1]
     binding.pry
     name_hash.each do |key,value|
 
