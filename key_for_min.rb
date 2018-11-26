@@ -5,7 +5,13 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     return nil
   end
-  name_hash.each do |val|
-    
+  
+  x = {}
+  name_hash.each do |key, value|
+    if x.empty?
+      p "test"
   end
 end
+
+
+# 2,4,2,3,1,6
